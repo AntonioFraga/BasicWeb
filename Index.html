@@ -1,22 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Página web sencilla</title>
+    <title>Página web sencilla</title>
+    <style>
+        .container {
+            width: 965p;
+            background: white;
+            margin: auto;
+        }
+        .top{
+            margin-top: 30px;
+        } 
+
+        .menu li {
+            display: inline-block;
+        }
+
+        .menu {
+            float: right;
+        }
+        .menu  a{
+            color: black;
+            text-decoration: none;
+            padding: 20px;
+            }
+        .menu a:hover{
+            background: crimson;
+        }
+    </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <img src="imagenes/logo zerinthia azul.png" alt="">
-            <ul class="menu">
-                <li><a href="#">Enlace 1</a></li>
-                <li><a href="#">Enlace 2</a></li>
-                <li><a href="#">Enlace 3</a></li>
-                <li><a href="#">Enlace 3</a></li>
+            <ul class="menu top">
+                <li><a href="#">Enlace1</a></li>
+                <li><a href="#">Enlace2</a></li>
+                <li><a href="#">Enlace3</a></li>
+                <li><a href="#">Enlace4</a></li>
             </ul>
-
         </div>
         <img src="imagenes/" alt="">
+        <div class="row">
+            <div class="col">
+                <h2>Encabezado</h2>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quam quos blanditiis facere dolores
+                    numquam. Consectetur veritatis provident, neque fuga mollitia aperiam voluptatibus voluptatem.
+                    Officiis harum molestiae numquam ullam aperiam.</p>
+            </div>
+            <div class="col">
+                <h2>Encabezado</h2>
+                <img src="" alt="">
+                <p>lorem</p>
+            </div>
+            <div class="col">
+                <h2>Encabezado</h2>
+                <img src="" alt="">
+                <p>lorem</p>
+            </div>
+        </div>
+        <div class="footer">
+            <span><a href="#">Enlace1</a> | <a href="#">Enlace2</a></span>
+            <ul class="menu">
+                <li><a href="#">Enlace1</a></li>
+                <li><a href="#">Enlace2</a></li>
+                <li><a href="#">Enlace3</a></li>
+                <li><a href="#">Enlace4</a></li>
+            </ul>
+        </div>
+
+
     </div>
+
 </html>
